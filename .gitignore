@@ -1,0 +1,6 @@
+# local scratch — working backups kept during iteration
+*.backup.html
+*.backup.js
+*.backup.css
+*.bak
+.DS_Store

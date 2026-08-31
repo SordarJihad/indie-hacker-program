@@ -1,0 +1,10 @@
+# slug,image-url  — one per line. Lines starting with # are ignored.
+# Run ./fetch-photos.sh after filling this in.
+# Portrait crops work best (3:4). Use images you have the right to use.
+#
+# jack-friks,https://example.com/jack.jpg
+# ben-tossell,https://example.com/ben.jpg
+# pieter-levels,https://example.com/pieter.jpg
+# danny-postma,https://example.com/danny.jpg
+# damon-chen,https://example.com/damon.jpg
+# marc-lou,https://example.com/marc.jpg

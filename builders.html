@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Builders — Indie Hacker Program</title>
+<meta name="description" content="Twenty people who built software and got paid for it. Publicly reported revenue, sources attached." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body class="dark-page">
+
+<header class="dnav">
+  <div class="container dnav__inner">
+    <a class="brand brand--dark" href="index.html">
+      <span class="brand__mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m8 6-6 6 6 6"/><path d="m16 6 6 6-6 6"/></svg>
+      </span>
+      <span class="brand__text">Indie&nbsp;Hacker<span class="brand__thin"> Program</span></span>
+    </a>
+    <a class="btn btn--white btn--sm" href="index.html#join">Join — ৳1,490</a>
+  </div>
+</header>
+
+<main class="dpage">
+  <div class="container">
+    <header class="dhead">
+      <h1>People who built software<br />and got paid for it.</h1>
+      <p>Some of them could not code when they started. All of them published their own numbers.</p>
+    </header>
+
+    <div class="rork__filters" role="tablist" aria-label="Filter builders">
+      <button class="rchip is-active" role="tab" aria-selected="true" data-f="all">All 20</button>
+      <button class="rchip" role="tab" aria-selected="false" data-f="nocode">No code</button>
+      <button class="rchip" role="tab" aria-selected="false" data-f="ai">AI</button>
+      <button class="rchip" role="tab" aria-selected="false" data-f="solo">Solo</button>
+      <button class="rchip" role="tab" aria-selected="false" data-f="fast">Went fast</button>
+    </div>
+
+    <div class="fgrid" id="fgrid"></div>
+
+    <div class="dcta">
+      <h2>Be the next one.</h2>
+      <p>৳1,490 once. 7 days. Lifetime access.</p>
+      <a class="btn btn--white btn--lg" href="index.html#join">Join the challenge</a>
+    </div>
+
+    <p class="dlegal">These numbers were published by the builders themselves and every profile links to its source.
+      They are not part of this challenge and do not endorse it. Their results took months or years, are not typical,
+      and are not a prediction of yours.</p>
+  </div>
+</main>
+
+<script src="data.js"></script>
+<script src="builders.js"></script>
+</body>
+</html>
